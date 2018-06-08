@@ -7,7 +7,7 @@ MW_DIR  = ./
 TARGET	= cae_sample
 BIN_TARGET = $(DIR_BIN)/$(TARGET)
 
-CROSS_COMPILE = ../../../../buildroot/output/host/usr/bin/aarch64-rockchip-linux-gnu-
+CROSS_COMPILE = ../../../buildroot/output/host/usr/bin/aarch64-rockchip-linux-gnu-
 
 CFLAGS = -fPIC -O3 -I$(DIR_INC) -I./util
 
